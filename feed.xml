@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-05-09T09:23:28+00:00</updated><id>/feed.xml</id><entry><title type="html">Bootstrap下拉菜单</title><link href="/2024/05/09/Bootstrap%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95.html" rel="alternate" type="text/html" title="Bootstrap下拉菜单" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95</id><content type="html" xml:base="/2024/05/09/Bootstrap%E4%B8%8B%E6%8B%89%E8%8F%9C%E5%8D%95.html"><![CDATA[<div class="dropdown">
+    <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">主题
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">Java</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+        </li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">创新实验</a>
+        </li>
+        <li role="presentation" class="divider"></li>
+        <li role="presentation" class="dropdown-header">下拉菜单标题</li>
+        <li role="presentation">
+            <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+        </li>
+    </ul>
+</div>]]></content><author><name>mty</name></author><summary type="html"><![CDATA[主题 下拉菜单标题 Java 数据挖掘 创新实验 下拉菜单标题 分离的链接]]></summary></entry><entry><title type="html">Bootstrap动画进度条</title><link href="/2024/05/09/Bootstrap%E5%8A%A8%E7%94%BB%E8%BF%9B%E5%BA%A6%E6%9D%A1.html" rel="alternate" type="text/html" title="Bootstrap动画进度条" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E5%8A%A8%E7%94%BB%E8%BF%9B%E5%BA%A6%E6%9D%A1</id><content type="html" xml:base="/2024/05/09/Bootstrap%E5%8A%A8%E7%94%BB%E8%BF%9B%E5%BA%A6%E6%9D%A1.html"><![CDATA[<div class="progress progress-striped active">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+        <span class="sr-only">40% 完成</span>
+    </div>
+</div>]]></content><author><name>mty</name></author><summary type="html"><![CDATA[40% 完成]]></summary></entry><entry><title type="html">Bootstrap可去除警告</title><link href="/2024/05/09/Bootstrap%E5%8F%AF%E5%8E%BB%E9%99%A4%E8%AD%A6%E5%91%8A.html" rel="alternate" type="text/html" title="Bootstrap可去除警告" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E5%8F%AF%E5%8E%BB%E9%99%A4%E8%AD%A6%E5%91%8A</id><content type="html" xml:base="/2024/05/09/Bootstrap%E5%8F%AF%E5%8E%BB%E9%99%A4%E8%AD%A6%E5%91%8A.html"><![CDATA[<div class="alert alert-success alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+                &times;
+            </button>
+            成功！很好地完成了提交。
+        </div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="alert alert-info alert-dismissable"&gt;
+        &lt;button type="button" class="close" data-dismiss="alert"
+                aria-hidden="true"&gt;
+            &amp;times;
+        &lt;/button&gt;
+        信息！请注意这个信息。
+    &lt;/div&gt;
+    &lt;div class="alert alert-warning alert-dismissable"&gt;
+        &lt;button type="button" class="close" data-dismiss="alert"
+                aria-hidden="true"&gt;
+            &amp;times;
+        &lt;/button&gt;
+        警告！请不要提交。
+    &lt;/div&gt;
+    &lt;div class="alert alert-danger alert-dismissable"&gt;
+        &lt;button type="button" class="close" data-dismiss="alert"
+                aria-hidden="true"&gt;
+            &amp;times;
+        &lt;/button&gt;
+        错误！请进行一些更改。
+    &lt;/div&gt;
+</code></pre></div></div>]]></content><author><name>mty</name></author><summary type="html"><![CDATA[&times; 成功！很好地完成了提交。 &lt;div class="alert alert-info alert-dismissable"&gt; &lt;button type="button" class="close" data-dismiss="alert" aria-hidden="true"&gt; &amp;times; &lt;/button&gt; 信息！请注意这个信息。 &lt;/div&gt; &lt;div class="alert alert-warning alert-dismissable"&gt; &lt;button type="button" class="close" data-dismiss="alert" aria-hidden="true"&gt; &amp;times; &lt;/button&gt; 警告！请不要提交。 &lt;/div&gt; &lt;div class="alert alert-danger alert-dismissable"&gt; &lt;button type="button" class="close" data-dismiss="alert" aria-hidden="true"&gt; &amp;times; &lt;/button&gt; 错误！请进行一些更改。 &lt;/div&gt;]]></summary></entry><entry><title type="html">Bootstrap响应式表格</title><link href="/2024/05/09/Bootstrap%E5%93%8D%E5%BA%94%E5%BC%8F%E8%A1%A8%E6%A0%BC.html" rel="alternate" type="text/html" title="Bootstrap响应式表格" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E5%93%8D%E5%BA%94%E5%BC%8F%E8%A1%A8%E6%A0%BC</id><content type="html" xml:base="/2024/05/09/Bootstrap%E5%93%8D%E5%BA%94%E5%BC%8F%E8%A1%A8%E6%A0%BC.html"><![CDATA[<div class="table-responsive">
+  <table class="table">
+    <caption>响应式表格布局</caption>
+    <thead>
+      <tr>
+        <th>产品</th>
+        <th>付款日期</th>
+        <th>状态</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>产品1</td>
+        <td>23/11/2013</td>
+        <td>待发货</td></tr>
+      <tr>
+        <td>产品2</td>
+        <td>10/11/2013</td>
+        <td>发货中</td></tr>
+      <tr>
+        <td>产品3</td>
+        <td>20/10/2013</td>
+        <td>待确认</td></tr>
+      <tr>
+        <td>产品4</td>
+        <td>20/10/2013</td>
+        <td>已退货</td></tr>
+    </tbody>
+  </table>
+</div>]]></content><author><name>mty</name></author><summary type="html"><![CDATA[响应式表格布局 产品 付款日期 状态 产品1 23/11/2013 待发货 产品2 10/11/2013 发货中 产品3 20/10/2013 待确认 产品4 20/10/2013 已退货]]></summary></entry><entry><title type="html">Bootstrap图片</title><link href="/2024/05/09/Bootstrap%E5%9B%BE%E7%89%87.html" rel="alternate" type="text/html" title="Bootstrap图片" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E5%9B%BE%E7%89%87</id><content type="html" xml:base="/2024/05/09/Bootstrap%E5%9B%BE%E7%89%87.html"><![CDATA[<p><img src="/wp-content/uploads/2014/06/download.png" class="img-rounded" />
+<img src="/wp-content/uploads/2014/06/download.png" class="img-circle" />
+<img src="/wp-content/uploads/2014/06/download.png" class="img-thumbnail" /></p>]]></content><author><name>mty</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Bootstrap实例</title><link href="/2024/05/09/Bootstrap%E5%AE%9E%E4%BE%8B.html" rel="alternate" type="text/html" title="Bootstrap实例" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E5%AE%9E%E4%BE%8B</id><content type="html" xml:base="/2024/05/09/Bootstrap%E5%AE%9E%E4%BE%8B.html"><![CDATA[<div class="container">
+  <div class="jumbotron">
+    <h1>我的第一个 Bootstrap 页面</h1>
+    <p>重置窗口大小，查看响应式效果！</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3> 
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+  </div>
+</div>]]></content><author><name>mty</name></author><summary type="html"><![CDATA[我的第一个 Bootstrap 页面 重置窗口大小，查看响应式效果！ Column 1 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！ Column 2 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！ Column 3 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！]]></summary></entry><entry><title type="html">Bootstrap按钮</title><link href="/2024/05/09/Bootstrap%E6%8C%89%E9%92%AE.html" rel="alternate" type="text/html" title="Bootstrap按钮" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E6%8C%89%E9%92%AE</id><content type="html" xml:base="/2024/05/09/Bootstrap%E6%8C%89%E9%92%AE.html"><![CDATA[<!-- 标准的按钮 -->
+<p><button type="button" class="btn btn-default">默认按钮</button>
+<!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
+<button type="button" class="btn btn-primary">原始按钮</button>
+<!-- 表示一个成功的或积极的动作 -->
+<button type="button" class="btn btn-success">成功按钮</button>
+<!-- 信息警告消息的上下文按钮 -->
+<button type="button" class="btn btn-info">信息按钮</button>
+<!-- 表示应谨慎采取的动作 -->
+<button type="button" class="btn btn-warning">警告按钮</button>
+<!-- 表示一个危险的或潜在的负面动作 -->
+<button type="button" class="btn btn-danger">危险按钮</button>
+<!-- 并不强调是一个按钮，看起来像一个链接，但同时保持按钮的行为 -->
+<button type="button" class="btn btn-link">链接按钮</button></p>]]></content><author><name>mty</name></author><summary type="html"><![CDATA[默认按钮 原始按钮 成功按钮 信息按钮 警告按钮 危险按钮 链接按钮]]></summary></entry><entry><title type="html">Bootstrap排版强调</title><link href="/2024/05/09/Bootstrap%E6%8E%92%E7%89%88%E5%BC%BA%E8%B0%83.html" rel="alternate" type="text/html" title="Bootstrap排版强调" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E6%8E%92%E7%89%88%E5%BC%BA%E8%B0%83</id><content type="html" xml:base="/2024/05/09/Bootstrap%E6%8E%92%E7%89%88%E5%BC%BA%E8%B0%83.html"><![CDATA[<p><small>本行内容是在标签内</small><br />
+<strong>本行内容是在标签内</strong><br />
+<em>本行内容是在标签内，并呈现为斜体</em><br /></p>
+<p class="text-left">向左对齐文本</p>
+<p class="text-center">居中对齐文本</p>
+<p class="text-right">向右对齐文本</p>
+<p class="text-muted">本行内容是减弱的</p>
+<p class="text-primary">本行内容带有一个 primary class</p>
+<p class="text-success">本行内容带有一个 success class</p>
+<p class="text-info">本行内容带有一个 info class</p>
+<p class="text-warning">本行内容带有一个 warning class</p>
+<p class="text-danger">本行内容带有一个 danger class</p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[本行内容是在标签内 本行内容是在标签内 本行内容是在标签内，并呈现为斜体 向左对齐文本 居中对齐文本 向右对齐文本 本行内容是减弱的 本行内容带有一个 primary class 本行内容带有一个 success class 本行内容带有一个 info class 本行内容带有一个 warning class 本行内容带有一个 danger class]]></summary></entry><entry><title type="html">Bootstrap网格嵌套列</title><link href="/2024/05/09/Bootstrap%E7%BD%91%E6%A0%BC%E5%B5%8C%E5%A5%97%E5%88%97.html" rel="alternate" type="text/html" title="Bootstrap网格嵌套列" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E7%BD%91%E6%A0%BC%E5%B5%8C%E5%A5%97%E5%88%97</id><content type="html" xml:base="/2024/05/09/Bootstrap%E7%BD%91%E6%A0%BC%E5%B5%8C%E5%A5%97%E5%88%97.html"><![CDATA[<div class="container">
+    <h1>Hello, world!</h1>
+    <div class="row">
+        <div class="col-md-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <h4>第一列</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="col-md-9" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <h4>第二列 - 分为四个盒子</h4>
+            <div class="row">
+                <div class="col-md-6" style="background-color: #B18904; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+                    <p>
+                        Consectetur art party Tonx culpa semiotics. Pinterest 
+        assumenda minim organic quis.
+                    </p>
+                </div>
+                <div class="col-md-6" style="background-color: #B18904; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+                    <p>
+                         sed do eiusmod tempor incididunt ut labore et dolore magna 
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="background-color: #B18904; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+                    <p>
+                        quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-6" style="background-color: #B18904; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna 
+        aliqua. Ut enim ad minim.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>]]></content><author><name>ted</name></author><summary type="html"><![CDATA[Hello, world! 第一列 Lorem ipsum dolor sit amet, consectetur adipisicing elit. 第二列 - 分为四个盒子 Consectetur art party Tonx culpa semiotics. Pinterest assumenda minim organic quis. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.]]></summary></entry><entry><title type="html">Bootstrap面包屑导航</title><link href="/2024/05/09/Bootstrap%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA.html" rel="alternate" type="text/html" title="Bootstrap面包屑导航" /><published>2024-05-09T00:00:00+00:00</published><updated>2024-05-09T00:00:00+00:00</updated><id>/2024/05/09/Bootstrap%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA</id><content type="html" xml:base="/2024/05/09/Bootstrap%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA.html"><![CDATA[<ul class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">2024</a></li>
+    <li class="active">五月</li>
+</ul>]]></content><author><name>mty</name></author><summary type="html"><![CDATA[Home 2024 五月]]></summary></entry></feed>

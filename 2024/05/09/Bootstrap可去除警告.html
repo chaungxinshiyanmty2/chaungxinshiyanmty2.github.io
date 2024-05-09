@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <title>Bootstrap可去除警告</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/css/bootstrap.min.css">  
+    <script src="https://cdn.staticfile.net/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  </head>
+  <body>
+    <nav>
+  
+    <a href="/" >Home</a>
+  
+    <a href="/about.html" >About</a>
+  
+    <a href="/blog.html" >Blog</a>
+  
+    <a href="/staff.html" >Staff</a>
+  
+</nav>
+    <h1>Bootstrap可去除警告</h1>
+
+<p>
+  09 May 2024
+  
+  
+    - <a href="/authors/mty.html">matianyang</a>
+  
+</p>
+
+<div class="alert alert-success alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+                &times;
+            </button>
+            成功！很好地完成了提交。
+        </div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="alert alert-info alert-dismissable"&gt;
+        &lt;button type="button" class="close" data-dismiss="alert"
+                aria-hidden="true"&gt;
+            &amp;times;
+        &lt;/button&gt;
+        信息！请注意这个信息。
+    &lt;/div&gt;
+    &lt;div class="alert alert-warning alert-dismissable"&gt;
+        &lt;button type="button" class="close" data-dismiss="alert"
+                aria-hidden="true"&gt;
+            &amp;times;
+        &lt;/button&gt;
+        警告！请不要提交。
+    &lt;/div&gt;
+    &lt;div class="alert alert-danger alert-dismissable"&gt;
+        &lt;button type="button" class="close" data-dismiss="alert"
+                aria-hidden="true"&gt;
+            &amp;times;
+        &lt;/button&gt;
+        错误！请进行一些更改。
+    &lt;/div&gt;
+</code></pre></div></div>
+
+  </body>
+</html>
